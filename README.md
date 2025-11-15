@@ -31,8 +31,7 @@ It provides advanced URL normalization fuzzing, payload mutation, and multi-sign
 
 # ✨ Features
 
-<details>
-<summary><strong>Show Features</strong></summary>
+
 
 - 🔍 **WAF Detection & Fingerprinting**  
   Detects 15+ major WAF vendors (Cloudflare, Akamai, AWS, Imperva, F5, ModSecurity, etc.)
@@ -58,14 +57,10 @@ It provides advanced URL normalization fuzzing, payload mutation, and multi-sign
 - 🔄 **Batch Scanning**  
   Multi-target support, error recovery, progress tracking
 
-</details>
 
 ---
 
 # 📦 Installation
-
-<details>
-<summary><strong>Show Installation</strong></summary>
 
 ## Requirements
 - Python **3.8+**
@@ -84,14 +79,9 @@ pip install -r requirements.txt
 pip install httpx rich
 ```
 
-</details>
-
 ---
 
 # 🚀 Quick Start
-
-<details>
-<summary><strong>Show Quick Start</strong></summary>
 
 ### Single Target
 
@@ -119,14 +109,10 @@ python run.py https://example.com \
   --no-verify-tls
 ```
 
-</details>
 
 ---
 
 # 📖 Usage Examples
-
-<details>
-<summary><strong>Show Usage Examples</strong></summary>
 
 ### 1) Quick Assessment
 
@@ -180,8 +166,6 @@ python cli.py \
   --verbose
 ```
 
-</details>
-
 ---
 
 # 🎛️ Command-Line Options
@@ -202,9 +186,6 @@ python cli.py \
 
 </details>
 
-<details>
-<summary><strong>Show Batch Scanner (waf-stressor-engine.py)</strong></summary>
-
 | Option     | Description                | Default          |
 | ---------- | -------------------------- | ---------------- |
 | `-t`       | Targets file               | Required         |
@@ -216,10 +197,6 @@ python cli.py \
 | `--format` | json, md, csv, sarif, html | json             |
 | `-v`       | Verbose                    | False            |
 
-</details>
-
-<details>
-<summary><strong>Show Advanced Batch (cli.py)</strong></summary>
 
 | Option            | Description           | Default |
 | ----------------- | --------------------- | ------- |
@@ -228,14 +205,9 @@ python cli.py \
 | `--tls-verify`    | Enable TLS verify     | False   |
 | `--stop-on-error` | Halt on errors        | False   |
 
-</details>
-
 ---
 
 # 📊 Understanding Output
-
-<details>
-<summary><strong>Show Sample Output</strong></summary>
 
 ```
 ============================================================
@@ -261,29 +233,19 @@ WAF DETECTED: cloudflare
 | **CC** | Consistency Coefficient |
 | **SC** | Status Code Variance    |
 
-</details>
 
 ---
 
 # 📁 Report Formats
-
-<details>
-<summary><strong>Show Report Formats</strong></summary>
 
 * **JSON** — structured data
 * **Markdown** — human readable
 * **HTML** — color-coded UI
 * **CSV** — quick parsing
 * **SARIF** — GitHub/CI integration
-
-</details>
-
 ---
 
 # 🎯 Use Cases
-
-<details>
-<summary><strong>Show Use Cases</strong></summary>
 
 ### Bug Bounty
 
@@ -306,14 +268,11 @@ python cli.py -t client-targets.txt -f payloads.txt --profile deep --budget 200 
 
 ### CI/CD SARIF Integration
 
-</details>
 
 ---
 
 # 🔬 Payload Files
 
-<details>
-<summary><strong>Show Payload Specifications</strong></summary>
 
 Format:
 
@@ -329,7 +288,7 @@ Example:
 ../../../etc/passwd     | path_traversal | Traversal test
 ```
 
-</details>
+
 
 ---
 
@@ -364,28 +323,20 @@ config = TestConfig(
 )
 ```
 
-</details>
 
 ---
 
 # 📈 Performance Tips
-
-<details>
-<summary><strong>Show Performance Tips</strong></summary>
 
 * **Quick scans:** budget **20–30**
 * **Standard scans:** **50–100**
 * **Deep scans:** **150–300**
 * Aggressive WAF → rate: **0.2–0.5**
 
-</details>
 
 ---
 
 # 🔍 Result Analysis
-
-<details>
-<summary><strong>Show Analysis Commands</strong></summary>
 
 ```bash
 jq '.waf_fingerprint'
@@ -394,7 +345,6 @@ jq '(.metrics.blocked_requests / .metrics.total_requests * 100)'
 jq '.results[] | select(.blocked==false)'
 ```
 
-</details>
 
 ---
 
