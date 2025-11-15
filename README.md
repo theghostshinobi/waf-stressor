@@ -1,11 +1,6 @@
 
 ````markdown
 # 🛡️ WAF Stressor  
-**Advanced Web Application Firewall Testing Framework for Security Researchers**
-
-[![Python](https://img.shields.io/badge/Python-3.8%2B-blue.svg)]()
-[![License](https://img.shields.io/badge/License-MIT-green.svg)]()
-[![GitHub](https://img.shields.io/badge/GitHub-theghostshinobi%2Fwaf--stressor-black)]()
 
 WAF Stressor is a production-grade assessment engine designed for ethical security research, penetration testing, and bug bounty operations.  
 It provides advanced URL normalization fuzzing, payload mutation, and multi-signal WAF fingerprinting to identify bypass vectors and inconsistent filtering behaviors.
