@@ -70,7 +70,6 @@ It provides advanced URL normalization fuzzing, payload mutation, and multi-sign
 ```bash
 git clone https://github.com/theghostshinobi/waf-stressor.git
 cd waf-stressor
-pip install -r requirements.txt
 ````
 
 ## Manual Dependencies
