@@ -9,23 +9,23 @@ It provides advanced URL normalization fuzzing, payload mutation, and multi-sign
 
 # 📘 Table of Contents
 
-- [✨ Features](#-features)
-- [📦 Installation](#-installation)
-- [🚀 Quick Start](#-quick-start)
-- [📖 Usage Examples](#-usage-examples)
-- [🎛️ Command-Line Options](#️-command-line-options)
-- [📊 Understanding Output](#-understanding-output)
-- [📁 Report Formats](#-report-formats)
-- [🎯 Use Cases](#-use-cases)
-- [🔬 Payload Files](#-payload-files)
-- [🛠️ Advanced Configuration](#-advanced-configuration)
-- [📈 Performance Tips](#-performance-tips)
-- [🔍 Result Analysis](#-result-analysis)
-- [⚠️ Legal & Ethical Use](#️-legal--ethical-use)
-- [📝 Contributing](#-contributing)
-- [📄 License](#-license)
-- [🔗 Links](#-links)
-- [🙏 Acknowledgments](#-acknowledgments)
+- [✨ Features]
+- [📦 Installation]
+- [🚀 Quick Start]
+- [📖 Usage Examples]
+- [🎛️ Command-Line Options]
+- [📊 Understanding Output]
+- [📁 Report Formats]
+- [🎯 Use Cases]
+- [🔬 Payload Files]
+- [🛠️ Advanced Configuration]
+- [📈 Performance Tips]
+- [🔍 Result Analysis]
+- [⚠️ Legal & Ethical Use]
+- [📝 Contributing]
+- [📄 License]
+- [🔗 Links]
+- [🙏 Acknowledgments]
 
 ---
 
